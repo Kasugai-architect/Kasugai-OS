@@ -1,4 +1,3 @@
-v2 — revised with ChatGPT review
 ## Real-World Applications
 
 Kasugai OS is not abstract — it was derived from analyzing real social failure patterns.
