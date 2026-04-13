@@ -1,91 +1,263 @@
-## Real-World Applications
+# Kasugai OS (鎹OS)
 
-Kasugai OS is not abstract — it was derived from analyzing real social failure patterns.
+> "The technique of breaking meaning apart and reading it as structure."
 
-### 1. Low-Resolution Language Attacks (a.k.a. "Kusorepu Defense")
+---
 
-**Problem**: Social media attacks often take the form of abstract, content-free criticism.
-Examples: "That's shallow." / "No taste." / "Cringe."
+## Try it first (3 minutes)
 
-**Kasugai OS Analysis**:
-These attacks score near-zero on the core function C = S × R because:
-- S (Shift/Surprise) is low — no new information is introduced
-- R (Recoverability) collapses — no actionable content to integrate
+You don't need to understand the theory.
+Just try this once.
 
-**System Response** (two valid routes):
+---
+
+**Step 0 — Pick a situation**
+
+Choose one — or just pick a word that's been on your mind.
+
+- Something that recently annoyed you
+- A conversation that keeps going nowhere
+- A problem that feels stuck
+- Something that felt shallow but you couldn't explain why
+
+Hold one thing in mind.
+
+---
+
+**Step 1 — Detect Loss**
+
+Ask yourself:
+
+> What is missing here that makes this unstable?
+
+If nothing feels missing — ask this instead:
+
+> If nothing is missing, why does it still feel unstable?
+
+That gap is Loss.
+Loss ≠ ∅ is the starting condition.
+If you can't find it, it's not a real question yet.
+
+---
+
+**Step 2 — Insert a designed question**
+
+Use one of these:
+
+> "In what dimension is this actually failing?"
+
+> "What would have to be true for this to stop being a problem?"
+
+Rules:
+- Don't add emotion
+- Don't argue
+- Only raise resolution
+
+---
+
+**Step 3 — Observe state change**
+
+Check one thing only:
+
+> Did the resolution space expand?
+
+- Did a new variable appear?
+- Did the framing shift by one level?
+- Is there something you couldn't see before?
+
+If nothing changed, the question was too weak.
+
+---
+
+**Step 4 — Detect structural flatness**
+
+If nothing new appears across these five dimensions:
+
+    Topic / Shift / Loss / Limit / Subject
+
+...you've hit structural flatness.
+
+Flatness is the signal. Not silence. Not disagreement. Flatness.
+
+---
+
+**What just happened?**
+
+    Questions create movement.
+    Movement reveals limits.
+    Limits generate the next question.
+
+    Loss is the filter.
+    Questions are the incision.
+    Dimensional expansion is life.
+    Flatness is death.
+
+The system is alive when questions keep opening new dimensions.
+When dimensionality stops increasing, reconstruction is required.
+
+---
+
+Try it again on something larger:
+a political debate / a product meeting / a long-term goal / a relationship conflict.
+
+---
+
+---
+
+## What Kasugai OS actually is
+
+Kasugai OS is a structural framework that treats social conflict, ethical failure,
+and decision-making breakdowns as system problems — not human flaws.
+
+It does not solve problems.
+It tests whether a system can metabolize itself.
+
+---
+
+## Core function
+
+    C = S × R
+
+- S (Shift): deviation from expected state
+- R (Recoverability): ability to integrate output back into stable context
+
+High S + Low R = noise.
+High S + High R = insight.
+
+---
+
+## The 5-step method (structured version)
+
+**Step 1 — Pick a word**
+Any noun: a concept, technology, social phenomenon.
+
+**Step 2 — Verbalize it**
+Convert the noun into what it *does*.
+- Smartphone → offloads decisions
+- Recommendation → selects on your behalf
+Do not keep it as a noun. The verb reveals the structure.
+
+**Step 3 — Choose a lens**
+
+Friction lens: ideal − reality = friction
+
+Generation/Loss lens: generated − lost = net structure (Z-Law)
+
+Prediction lens: convergence point, dependency, breaking condition
+
+**Step 4 — Structuralize (Z-Law)**
+Redefine the subject using your lens.
+
+Example (smartphone + generation/loss):
+"A device that generates efficiency by consuming the cognitive load of decision-making."
+
+**Step 5 — Act or extend**
+Each output becomes the next input. The method does not end.
+
+---
+
+## Real-world applications
+
+**1. Low-resolution language attacks (Kusorepu Defense)**
+
+Attacks like "shallow" or "no taste" score near-zero on C = S × R.
+S is low. R collapses. Nothing to integrate.
+
+Two valid responses:
 ```
-Route A: Concretize
-  "Shallow" → "Shallow in what dimension, exactly?"
-
-Route B: Abstract further
-  "No taste" → "Is taste a measurable property?"
+Route A: Concretize → "Shallow in what dimension?"
+Route B: Abstract further → "Is taste measurable?"
 ```
-Both routes increase linguistic resolution.
 Neither requires emotional engagement.
 
----
+**2. Hedonic treadmill**
 
-### 2. Hedonic Treadmill (Technology vs. Happiness)
+Why does technological progress fail to increase long-term happiness?
 
-**Problem**: Why does technological progress fail to increase long-term human happiness?
+Intuition: happiness doesn't scale with progress because expectation scales too.
 
-**Intuition**: Happiness does not scale with progress because expectation scales too.
-Progress raises the floor. The floor becomes the new baseline. Repeat.
-
-**Kasugai OS Model**:
 ```
 H(t) = α · (U(t) − E(t)) − β · C(t)
-
 dE/dt = γ · (U(t) − E(t))
-
 lim H(t) as t → ∞ = −β · C(t)
 ```
-Where:
-- U(t) = utility / technological level at time t
-- E(t) = human expectation baseline
-- C(t) = system maintenance cost (DDM)
-- γ = adaptation speed
 
-**Finding**: Expectation tracks utility with a time lag.
+Expectation tracks utility with a time lag.
 Long-term, only maintenance cost remains — and it grows.
-This is not pessimism. It is a structural constraint.
+
+**3. Ethics debates as escalation engines**
+
+High S + Low R = escalation engine.
+
+Participants maximize moral surprise without providing integrable resolution.
+Reframe as S-R calibration failure, not right-vs-wrong conflict.
 
 ---
 
-### 3. Ethics Debates as Escalation Engines
+## System architecture
 
-**Problem**: Why do ethical debates so rarely produce resolution?
-
-**Kasugai OS Diagnosis**:
 ```
-High S + Low R = Escalation engine
+      Human Layer (Observation Only)
+   +-----------------------------------+
+   |  Transparency / Logging / Alerts  |
+   |  - No control rights              |
+   +----------------+------------------+
+                    |
+                    v
+      Control Layer (Constraint System)
+   +-----------------------------------+
+   |  Validation Engine                |
+   |  - Stability checks               |
+   +----------------+------------------+
+                    |
+                    v
+      Ethics Layer (Dynamic System)
+   +-----------------------------------+
+   |  Adaptive Ethics Engine           |
+   |  - Continuous updates             |
+   |  - No fixed moral rules           |
+   |     C = S × R (Core Function)     |
+   +-----------------------------------+
 ```
 
-Participants maximize S (moral surprise/shock)
-without providing R (integrable resolution).
-The debate does not stall because people disagree.
-It stalls because the output cannot be metabolized.
-
-**Application**: Reframe ethical conflict not as right/wrong
-but as S-R calibration failure.
-"Your argument has high surprise value but low recoverability.
-Can we find a formulation that both sides can integrate?"
+The human role is observation and calibration, not direct control.
+Centralized moral authority is unstable by design.
 
 ---
 
-## Why These Examples
+## Z-Law
 
-These three cases share a common structure:
+> Questions create movement.
+> Movement reveals limits.
+> Limits generate the next question.
 
-| Case | Root Failure | Kasugai Fix |
-|---|---|---|
-| Kusorepu | Low resolution input | Increase resolution (A or B route) |
-| Hedonic treadmill | Expectation drift | Model the drift explicitly |
-| Ethics debate | S/R imbalance | Recalibrate, don't suppress |
+The question engine is the metabolism monitor.
+When questions stop generating new dimensions, the system requires reconstruction.
 
-All are instances of the same problem:
-**Systems that cannot metabolize their own feedback collapse.**
+For formal specification, see [ZLAW.md](./ZLAW.md).
+
+---
+
+## Failure conditions
+
+The system has failed when:
+- Control becomes centralized
+- Ethics update process freezes
+- Observability is lost
+- Question generation stops entirely
+
+---
+
+## Philosophy
 
 Kasugai OS does not prevent collapse.
 It reveals where collapse becomes inevitable.
-Copy to clipboard
+
+This project is intentionally incomplete.
+It is designed to evolve, not to finish.
+
+---
+
+## License
+
+MIT License (conceptual freedom included)
